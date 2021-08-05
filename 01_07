@@ -11,6 +11,7 @@ class Main01_07 {
                 lt++; rt--;
             }else{
                 answer="no";
+                break;
             }
         }
         return answer;
