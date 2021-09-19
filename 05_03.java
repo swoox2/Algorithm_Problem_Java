@@ -14,16 +14,16 @@ class Main05_03 {
                                 } else {
                                     stack.push(board[i][j]);
                                     board[i][j]=0;
-                                    //break;
+                                    //break : else문 조건에서만 break
                                 }
-                                break;
+                                break; //if문이든 else문이든 조건 수행 후 둘다 break
                             }
-                            //break;
+                            //break : for문이 돌기만 하면 break
                         }
                     }
             }
         }
-        //System.out.println(stack);
+        System.out.println(stack);
         return answer;
     }
     public static void main(String[] args) {
