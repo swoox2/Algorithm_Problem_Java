@@ -5,7 +5,7 @@ class Main05_04 {
         Stack<Integer> stack = new Stack<>();
         for (char x : str.toCharArray()) {
             if (Character.isDigit(x)) {
-                stack.push(x - 48);
+                stack.push(x - 48); //아스키코드 
             } else {
                 int rt = stack.pop();
                 int lt = stack.pop();
