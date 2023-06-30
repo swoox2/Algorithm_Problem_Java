@@ -9,7 +9,7 @@ class Node{
     }
 }
 
-public class Main7_5 {
+public class Main7_05 {
     Node root;
     public void DFS(Node root){
         if(root==null) return;
@@ -24,7 +24,7 @@ public class Main7_5 {
     }
 
     public static void main(String[] args) {
-        Main7_5 tree = new Main7_5();
+        Main7_05 tree = new Main7_05();
         tree.root=new Node(1);
         tree.root.lt=new Node(2);
         tree.root.rt=new Node(3);
