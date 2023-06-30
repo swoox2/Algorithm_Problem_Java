@@ -1,6 +1,6 @@
 package study;
 
-public class Main7_6 {
+public class Main7_06 {
     static int n;
     static int[] ch;
     public void DFS(int L){
@@ -20,7 +20,7 @@ public class Main7_6 {
     }
 
     public static void main(String[] args) {
-        Main7_6 T = new Main7_6();
+        Main7_06 T = new Main7_06();
         n=3;
         ch=new int[n+1];
         T.DFS(1);
