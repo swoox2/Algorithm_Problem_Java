@@ -9,7 +9,7 @@ class Node2{
         lt=rt=null;
     }
 }
-public class Main7_7 {
+public class Main7_07 {
     Node2 root;
     public void BFS(Node2 root){
         Queue<Node2> Q = new LinkedList<>();
@@ -31,7 +31,7 @@ public class Main7_7 {
     }
 
     public static void main(String[] args) {
-        Main7_7 tree=new Main7_7();
+        Main7_07 tree=new Main7_07();
         tree.root=new Node2(1);
         tree.root.lt=new Node2(2);
         tree.root.rt=new Node2(3);
