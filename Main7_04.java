@@ -1,6 +1,6 @@
 package study;
 
-public class Main7_4 {
+public class Main7_04 {
         static int[] fibo;
         public int DFS(int n){
             if(fibo[n]>0) return fibo[n];
@@ -10,7 +10,7 @@ public class Main7_4 {
     }
 
     public static void main(String[] args) {
-        Main7_4 T = new Main7_4();
+        Main7_04 T = new Main7_04();
         int n=5;
         fibo=new int[n+1];
         T.DFS(n);
