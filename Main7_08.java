@@ -1,6 +1,6 @@
 package study;
 import java.util.*;
-public class Main7_8 {
+public class Main7_08 {
     int answer=0;
     int[] dis = {1,-1,5};
     int[] ch;
@@ -29,7 +29,7 @@ public class Main7_8 {
     }
 
     public static void main(String[] args) {
-        Main7_8 T = new Main7_8();
+        Main7_08 T = new Main7_08();
         Scanner kb = new Scanner(System.in);
         int s = kb.nextInt();
         int e= kb.nextInt();
