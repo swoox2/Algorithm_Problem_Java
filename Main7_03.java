@@ -1,6 +1,6 @@
 package study;
 
-public class Main7_3 {
+public class Main7_03 {
     public int DFS(int n){
         if(n==1){
             return 1;
@@ -10,7 +10,7 @@ public class Main7_3 {
 
     }
     public static void main(String[] args){
-        Main7_3 T = new Main7_3();
+        Main7_03 T = new Main7_03();
         System.out.println(T.DFS(5));
     }
 }
