@@ -1,5 +1,4 @@
 package study;
-import java.sql.SQLOutput;
 import java.util.*;
 public class Main8_01 {
     static String answer="NO";
