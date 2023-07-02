@@ -3,7 +3,6 @@ import java.util.*;
 public class Main8_01 {
     static String answer="NO";
     static int n, total=0;
-    boolean flag=false;
     public void DFS(int L, int sum, int[] arr){
         if(L==arr.length){
             if((total-sum)==sum) answer="YES";
